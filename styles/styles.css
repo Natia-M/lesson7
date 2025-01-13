@@ -1,0 +1,47 @@
+/*general styles*/
+img {
+  max-width: 400px;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/*section styles*/
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  font-size: 40px;
+  color: rgb(142, 80, 18);
+}
+
+section {
+  background: #bca58a;
+  max-width: 100%;
+  margin: 0px;
+}
+
+div {
+  max-width: 400px;
+  width: 350px;
+  display: inline-block;
+  position: relative;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+p {
+  text-align: left;
+  font-size: 15px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  border-radius: 15px;
+  color: black;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  opacity: 70%;
+}
