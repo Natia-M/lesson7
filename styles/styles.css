@@ -21,6 +21,11 @@ h1 {
   padding-bottom: 40px;
   font-size: 40px;
   color: rgb(142, 80, 18);
+  animation-name: color-change;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 
 section {
@@ -30,6 +35,8 @@ section {
 }
 
 div {
+  background-color: rgb(2, 2, 2);
+  border-radius: 10px;
   max-width: 400px;
   width: 350px;
   display: inline-block;
@@ -51,4 +58,33 @@ p {
   margin-bottom: 10px;
   padding: 10px;
   opacity: 70%;
+}
+div:hover p {
+  background-color: antiquewhite;
+  font-size: large;
+  font-weight: bolder;
+  opacity: none;
+}
+div:hover img {
+  opacity: 0%;
+}
+.bengals:hover {
+  background-image: url(../images/bengal2.jpeg);
+  background-position: center;
+}
+.turkish:hover {
+  background-image: url(../images/turkish2.jpeg);
+  background-position: center;
+}
+.siamese {
+  background-image: url(../images/siamese2.jpeg);
+  background-position: center;
+}
+@keyframes color-change {
+  from {
+    color: rgb(142, 80, 18);
+  }
+  to {
+    color: black;
+  }
 }
