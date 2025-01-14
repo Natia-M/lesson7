@@ -35,14 +35,13 @@ section {
 }
 
 div {
-  background-color: rgb(2, 2, 2);
   border-radius: 10px;
   max-width: 400px;
   width: 350px;
   display: inline-block;
   position: relative;
-  margin-left: 50px;
-  margin-bottom: 50px;
+  bottom: 50px;
+  margin-left: 200px;
 }
 
 p {
@@ -87,4 +86,38 @@ div:hover img {
   to {
     color: black;
   }
+}
+@keyframes move {
+  0% {
+    left: 100px;
+  }
+  50% {
+    left: 5%;
+  }
+  100% {
+    left: 100px;
+  }
+}
+@keyframes image {
+  0% {
+    right: 100px;
+  }
+  50% {
+    right: 5%;
+  }
+  100% {
+    right: 100px;
+  }
+}
+.bengals {
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+.turkish {
+  animation-name: image;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
 }
