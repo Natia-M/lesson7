@@ -79,6 +79,18 @@ div:hover img {
   background-image: url(../images/siamese2.jpeg);
   background-position: center;
 }
+.bengals {
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+.turkish {
+  animation-name: image;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
 @keyframes color-change {
   from {
     color: rgb(142, 80, 18);
@@ -108,16 +120,4 @@ div:hover img {
   100% {
     right: 100px;
   }
-}
-.bengals {
-  animation-name: move;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-}
-.turkish {
-  animation-name: image;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
 }
